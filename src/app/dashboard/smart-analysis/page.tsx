@@ -117,7 +117,8 @@ export default function SmartAnalysisPage() {
             setIsLoading(false);
           }
         };
-        reader.onerror = () => {
+        reader.onerror = (error) => {
+          console.error("Failed to read the file:", error);
           setError("Failed to read the file.");
           setIsLoading(false);
         };

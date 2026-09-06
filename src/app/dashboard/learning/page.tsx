@@ -142,10 +142,21 @@ export default function LearningPage() {
       if (file && preview) {
         const reader = new FileReader();
         reader.readAsDataURL(file);
+        reader.onerror = (error) => {
+          console.error("Failed to read file:", error);
+          setError("Failed to read the file.");
+          setIsLoading(false);
+        };
         reader.onload = async (event) => {
+          try {
             const response = await documentQuestionAnswering({ question, documentContext: event.target?.result as string });
             setAnswer(response);
+          } catch (err) {
+            console.error("Error answering document question:", err);
+            setError("Sorry, I couldn't process your question. Please try again.");
+          } finally {
             setIsLoading(false);
+          }
         };
       } else {
         let response;

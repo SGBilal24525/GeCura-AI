@@ -62,6 +62,11 @@ export default function MedicineAnalysisPage() {
 
     const reader = new FileReader();
     reader.readAsDataURL(file);
+    reader.onerror = (error) => {
+      console.error("Failed to read the file:", error);
+      setError("Failed to read the file.");
+      setIsLoading(false);
+    };
     reader.onload = async () => {
       const base64Data = reader.result as string;
 
