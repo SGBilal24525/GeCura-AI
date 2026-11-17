@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-image-v2",
+      "description": "A female doctor with a friendly smile, surrounded by abstract medical icons.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZG9jdG9yJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY5MzU3NTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor portrait"
+    },
+    {
+      "id": "how-it-works-image",
+      "description": "An abstract visualization of a data flow through a brain-like circuit.",
+      "imageUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkYXRhJTIwZmxvd3xlbnwwfHx8fDE3NjkzNTk4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data flow"
+    },
+    {
+      "id": "learning-feature",
+      "description": "Image for the learning feature card.",
+      "imageUrl": "https://images.unsplash.com/photo-1674702734929-2f301792ddae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtZWRpY2FsJTIwc3R1ZGVudHxlbnwwfHx8fDE3NjkzMzI5MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical student"
+    },
+    {
+      "id": "analysis-feature",
+      "description": "Image for the smart analysis feature card.",
+      "imageUrl": "https://images.unsplash.com/photo-1707944746508-f2dd7b88ac1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWljcm9zY29wZSUyMGxhYnxlbnwwfHx8fDE3NjkzNTY1NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "microscope lab"
+    },
+    {
+      "id": "doctor-feature",
+      "description": "Image for the AI doctor feature card.",
+      "imageUrl": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkb2N0b3IlMjBjb25zdWx0YXRpb258ZW58MHx8fHwxNzY5MzU2NTY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor consultation"
+    },
+    {
+      "id": "mission-image",
+      "description": "A person looking at medical data on a screen, representing our mission to bridge knowledge gaps.",
+      "imageUrl": "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWRpY2FsfGVufDB8fHx8MTc2OTQ0OTkyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical technology"
+    },
+    {
+      "id": "story-image",
+      "description": "Two medical professionals collaborating, representing the partnership behind CuraAI.",
+      "imageUrl": "https://images.unsplash.com/photo-1758685848561-3658f433e6a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtZWRpY2FsJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3Njk0NTAwNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical collaboration"
+    }
+  ]
+}

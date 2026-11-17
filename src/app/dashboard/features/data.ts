@@ -1,0 +1,61 @@
+import { BookOpen, ScanLine, Stethoscope, BrainCircuit, Users } from 'lucide-react';
+
+export const features = [
+  {
+    id: 'learning',
+    title: 'AI Learning',
+    description: 'AI-powered learning with multiple modes for deep understanding.',
+    icon: BookOpen,
+    category: 'Education',
+    plan: 'free',
+    href: '/dashboard/learn',
+    status: 'active',
+    subFeatures: ['Normal Learning', 'Concept Builder', 'Exam Mode', 'Mistake Finder'],
+  },
+  {
+    id: 'smart-answer',
+    title: 'Smart Answer',
+    description: 'Intelligent question & image-based analysis.',
+    icon: ScanLine,
+    category: 'Analysis',
+    plan: 'standard',
+    href: '/dashboard/smart-analysis',
+    status: 'active',
+    subFeatures: ['Question Image Analysis', 'Medicine Image Recognition', 'Text Structuring'],
+  },
+  {
+    id: 'ai-doctor',
+    title: 'AI Doctor',
+    description: 'Human-like medical consultation & symptom guidance.',
+    icon: Stethoscope,
+    category: 'Consultation',
+    plan: 'premium',
+    href: '/dashboard/consultation',
+    status: 'active',
+    subFeatures: ['Symptom Analysis', 'Risk Assessment', 'Appointment Recommendation'],
+  },
+  {
+    id: 'insights',
+    title: 'Personalized Insights',
+    description: 'AI analyzes your activity to provide learning recommendations.',
+    icon: BrainCircuit,
+    category: 'Analytics',
+    plan: 'standard',
+    href: '/dashboard/insight',
+    status: 'active',
+    subFeatures: ['Usage Trends', 'Learning Focus', 'AI-Generated Summary'],
+  },
+  {
+    id: 'team',
+    title: 'Team Collaboration',
+    description: 'Collaborate with your team, share findings, and manage projects.',
+    icon: Users,
+    category: 'Collaboration',
+    plan: 'premium',
+    href: '#',
+    status: 'coming-soon',
+    subFeatures: ['Shared Workspaces', 'Team Analytics', 'Project Management'],
+  },
+];
+
+export type Feature = typeof features[0];
